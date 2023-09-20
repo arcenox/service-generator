@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>_COMPANYNAME_._PROJECTNAME_._SERVICE_.Common</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
+    <PackageReference Include="NinjaNye.SearchExtensions" Version="3.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\@COMPANYNAME@.@PROJECTNAME@.@SERVICE@.Domain\@COMPANYNAME@.@PROJECTNAME@.@SERVICE@.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
